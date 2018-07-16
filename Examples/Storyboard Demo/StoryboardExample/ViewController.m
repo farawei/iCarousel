@@ -32,6 +32,8 @@
     {
         [items addObject:@(i)];
     }
+    // 我的修改
+    [super awakeFromNib];
 }
 
 - (void)dealloc
